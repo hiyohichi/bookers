@@ -1,3 +1,21 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+h1{
+  font-size:26px;
+}
+
+body{
+  margin:33px;
+}
+
+p{
+  margin:33px;
+  font-size:13px;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
