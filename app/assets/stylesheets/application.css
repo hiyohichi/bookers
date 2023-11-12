@@ -4,6 +4,11 @@
   box-sizing:border-box;
 }
 
+div{
+  margin:33px;
+  color:green;
+}
+
 h1{
   font-size:26px;
 }
@@ -16,6 +21,40 @@ p{
   margin:33px;
   font-size:13px;
 }
+
+td{
+  margin:33px;
+  padding:1px 5px 7px;
+}
+
+li{
+  color:#333;
+  font-size:12px;
+  display:list-item;
+  padding-top:10px;
+  margin-left:20px;
+
+}
+
+#errors{
+  width:450px;
+  padding:7px;
+  border-style:solid;
+  border-width:2px;
+  border-color:red;
+  margin-bottom:20px;
+  background-color:#f0f0f0;
+}
+
+#red{
+  padding:5px 5px 5px 15px;
+  font-size:12px;
+  margin:-7px;
+  background-color:#c00;
+  color:#fff;
+}
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
